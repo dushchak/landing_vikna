@@ -1,0 +1,490 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE html>
+<html platform="linux"><head>
+  <meta http-equiv="Content-Security-Policy" content="default-src chrome:; img-src data: *; media-src *; object-src 'none'">
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <meta name="viewport" content="width=device-width; user-scalable=0">
+  <link rel="stylesheet" href="chrome://global/skin/aboutReader.css" type="text/css">
+  <link rel="stylesheet" href="chrome://global/skin/aboutReaderPocket.css" type="text/css">
+<title>Создание рекламной кампании в Google AdWords с помощью Excel и редактора Adwords - ppc.world</title><link rel="stylesheet" href="chrome://global/skin/narrate.css"><link rel="shortcut icon" href="https://ppc.world/build/resources/img/favicon.svg"></head>
+
+<body class="light sans-serif loaded" style="--font-size: 20px; --content-width: 30em;">
+  <div class="top-anchor"></div>
+
+  <div id="toolbar" class="toolbar-container scrolled">
+    <div class="toolbar reader-toolbar">
+      <div class="reader-controls" articledir="ltr">
+        <button class="close-button toolbar-button" data-telemetry-id="reader-close" aria-label="Close Reader View"><span class="hover-label">Close Reader View</span></button>
+        <ul class="dropdown style-dropdown">
+          <li>
+            <button class="dropdown-toggle toolbar-button style-button" data-telemetry-id="reader-type-controls" aria-label="Type controls"><span class="hover-label">Type controls</span></button>
+          </li>
+          <li class="dropdown-popup">
+            <div class="dropdown-arrow"></div>
+            <div class="font-type-buttons radiorow"><input id="radio-itemsans-serif-button" type="radio" class="radio-button" name="font-type" checked="checked"><label for="radio-itemsans-serif-button" class="sans-serif-button" checked="true">Sans-serif</label><input id="radio-itemserif-button" type="radio" class="radio-button" name="font-type"><label for="radio-itemserif-button" class="serif-button">Serif</label></div>
+            <div class="font-size-buttons buttonrow">
+              <button class="minus-button" title="Decrease Font Size"></button>
+              <span class="font-size-value">5</span>
+              <button class="plus-button" title="Increase Font Size">
+            </button></div>
+            <div class="content-width-buttons buttonrow">
+               <button class="content-width-minus-button" title="Decrease Content Width"></button>
+               <span class="content-width-value">3</span>
+               <button class="content-width-plus-button" title="Increase Content Width">
+            </button></div>
+            <div class="line-height-buttons buttonrow">
+                <button class="line-height-minus-button" title="Decrease Line Height"></button>
+                <span class="line-height-value">4</span>
+                <button class="line-height-plus-button" title="Increase Line Height">
+            </button></div>
+            <div class="color-scheme-buttons radiorow"><input id="radio-itemlight-button" type="radio" class="radio-button" name="color-scheme" checked="checked"><label for="radio-itemlight-button" class="light-button" checked="true" title="Color Scheme Light">Light</label><input id="radio-itemdark-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemdark-button" class="dark-button" title="Color Scheme Dark">Dark</label><input id="radio-itemsepia-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemsepia-button" class="sepia-button" title="Color Scheme Sepia">Sepia</label><input id="radio-itemauto-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemauto-button" class="auto-button" title="Color Scheme Auto">Auto</label></div>
+          </li>
+        </ul>
+      <ul class="dropdown narrate-dropdown"><li><button class="dropdown-toggle toolbar-button narrate-toggle" data-telemetry-id="reader-listen" aria-label="Listen"><span class="hover-label">Listen</span></button></li><li class="dropdown-popup"><div class="narrate-row narrate-control"><button class="narrate-skip-previous" disabled="disabled" title="Back"></button><button class="narrate-start-stop" title="Start (N)"></button><button class="narrate-skip-next" disabled="disabled" title="Forward"></button></div><div class="narrate-row narrate-rate"><input class="narrate-rate-input" value="0" step="5" max="100" min="-100" type="range" title="Speed"></div><div class="narrate-row narrate-voices"><div class="voiceselect voice-select"><button class="select-toggle" aria-controls="voice-options">
+      <span class="label">Voice:</span> <span class="current-voice">Default</span>
+    </button>
+    <div class="options" id="voice-options" role="listbox"><button data-value="automatic" class="option selected" tabindex="-1" role="option" aria-selected="true">Default</button><button data-value="urn:moz-tts:speechd:Russian?ru" class="option" tabindex="-1" role="option">Russian (ru)</button></div></div></div><div class="dropdown-arrow"></div></li></ul><button data-buttonid="pocket-button" data-telemetry-id="reader-save-to-pocket" class="toolbar-button pocket-button" aria-label="Save To Pocket" style="background-image: url(&quot;chrome://global/skin/icons/pocket.svg&quot;);"><span class="hover-label">Save To Pocket</span></button></div>
+    </div>
+  </div>
+
+  <div class="container" style="--line-height: 1.6em;" dir="ltr" lang="ru">
+    <div class="header reader-header reader-show-element">
+      <a class="domain reader-domain" href="https://ppc.world/articles/sozdanie-poiskovoj-reklamnoj-kampanii-v-google-adwords-s-pomoshhyu-excel-i-redaktora-adwords/">ppc.world</a>
+      <div class="domain-border"></div>
+      <h1 class="reader-title">Создание поисковой рекламной кампании в Google AdWords с помощью Excel и Редактора AdWords</h1>
+      <div class="credits reader-credits">Никита Кравченко</div>
+      <div class="meta-data">
+        <div class="reader-estimated-time" dir="ltr">16-22 minutes</div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="content">
+      <div class="moz-reader-content reader-show-element"><div id="readability-page-1" class="page"><div itemprop="articleBody">
+                                    <p>Поисковые рекламные кампании 
+можно создавать в интерфейсе Google AdWords. Ничего сложного – создал 
+рекламную кампанию и добавляешь в нее группы объявлений одну за другой. В
+ каждую группу 2-3 объявления и от 1 до 5-10 ключевых слов. Простой и 
+логичный подход для рекламодателей с небольшим количеством ключевых 
+запросов.</p>
+
+<p>Сложности могут возникнуть, когда собрано действительно много 
+ключевых слов: 500, 1000 и более. Даже если группировать ключевики, все 
+равно на создание кампании через интерфейс уйдет очень много времени, 
+которое можно провести более продуктивно. Упростить и ускорить создание 
+рекламной кампании поможет таблица Excel и бесплатная программа Редактор
+ Google AdWords (Google AdWords Editor, скачать можно по <a href="https://www.google.ru/intl/ru/adwordseditor/" target="_blank">ссылке</a>).</p>
+
+<p>В этой статье я рассмотрю два способа быстрого создания рекламной кампании:</p>
+
+<ul><li>по принципу «1-1-1», когда в каждую группу объявлений входит 
+одно объявление и одно ключевое слово. Этот способ еще называют SKAg – 
+Single Keyword AdGroup;</li>
+	<li>по принципу «1-2-5», когда в каждую группу объявлений входит два 
+объявления и несколько похожих ключевых слов («1-2-5» в контексте статьи
+ – это авторское название способа создания рекламной кампании. В группы 
+может входить другое количество ключевиков и объявлений).</li>
+</ul><h2>Способ 1: Создание рекламной кампании по принципу «1-1-1»</h2>
+
+<p>Для начала рассмотрим плюсы и минусы создания кампании по такому принципу.</p>
+
+<p><strong>Плюсы:</strong></p>
+
+<ul><li>объявления максимально релевантны ключевым словам;</li>
+	<li>позволяет достичь максимального показателя качества ключевых слов;</li>
+	<li>создание кампании занимает немного времени;</li>
+	<li>в некоторых системах аналитики и коллтрекинга удобно работать именно с такими кампаниями.</li>
+</ul><p><strong>Минусы:</strong></p>
+
+<ul><li>количество групп объявлений равно числу ключевых слов, и их может быть очень много;</li>
+	<li>нет четкой структуры внутри аккаунта.</li>
+</ul><p>Этот способ создания рекламной кампании удобен для рекламодателей с небольшим количеством ключевых слов.</p>
+
+<p><strong>Условия для создания рекламной кампании:</strong> собранные ключевые фразы, программа Microsoft Excel, Редактор Google AdWords, аккаунт в Google AdWords.</p>
+
+<h3>Шаг 1. Подготовка рекламной кампании</h3>
+
+<p>По <a href="https://docs.google.com/spreadsheets/d/11Bi3yrF99tUJPljVjqeJYkvdFqSZY8WYcpbe3zyFjm8/edit?usp=sharing" target="_blank">ссылке</a>
+ скачайте&nbsp;шаблон упрощенной таблицы Excel для создания рекламной 
+кампании. Заполните все столбцы, как показано на скриншоте ниже:</p>
+
+<p><img alt="Таблица excel" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/tablica.png" data-src="/uploads/article_images/2017/02/tablica.png" data-loaded="true" class="moz-reader-block-img" moz-reader-full-width="true" moz-reader-center="true"></p>
+
+<p><em>Пример заполненной таблицы Excel для рекламной кампании по принципу «1-1-1» (кликните на картинку, чтобы увеличить ее)</em></p>
+
+<p>Рассмотрим все элементы таблицы подробнее:</p>
+
+<ul><li><strong>Campaign </strong>– название кампании. В этом столбце указано название будущей рекламной кампании. Оно одинаковое во всех ячейках.</li>
+	<li><strong>Campaign Daily Budget</strong> – дневной бюджет кампании. В дальнейшем дневной бюджет можно изменить в Редакторе или в веб-интерфейсе Google AdWords.</li>
+	<li><strong>AdGroup</strong> – название группы объявлений. При создании
+ рекламной кампании по принципу 1-1-1 каждая группа объявлений носит 
+уникальное название. Удобнее всего дать названия группам объявлений по 
+ключевым словам, входящим в них.</li>
+	<li><strong>KeyWord</strong> – ключевое слово. В примере ключевые слова добавлены с модификатором широкого соответствия.</li>
+	<li><strong>Headline 1</strong> – заголовок 1 (максимально 30 
+символов). Это первый заголовок рекламного объявления. Чаще всего в нем 
+повторяют ключевое слово или по крайней мере часть ключевой фразы.</li>
+	<li><strong>Headline 2</strong> – заголовок 2 (также до 30 символов). 
+Во втором заголовке можно указать УТП, подчеркнуть преимущества и 
+выгоды, добавить призыв к действию.</li>
+	<li><strong>Headline 3</strong>&nbsp;— заголовок&nbsp;3 (также 
+до&nbsp;30&nbsp;символов). Третий заголовок показывается не&nbsp;всегда.
+ Поэтому делайте его коротким и&nbsp;не&nbsp;включайте 
+в&nbsp;него&nbsp;то, без чего весь рекламный креатив потеряет смысл.</li>
+	<li><strong>Description</strong>&nbsp;<strong>1</strong> – описание 
+(максимально 80 символов). В тексте обычно указаны важные для целевой 
+аудитории данные о товаре или услуге, конкурентные преимущества и призыв
+ к действию. Также важно указать в тексте объявления ключевые слова, это
+ повысит его релевантность.</li>
+	<li><strong>Description 2</strong>&nbsp;— описание&nbsp;2 (максимально 
+90&nbsp;символов). Второе описание отображается не&nbsp;всегда (также 
+как и&nbsp;расширения). Укажите в&nbsp;нем информацию о&nbsp;продукте 
+или вашей компании.</li>
+	<li><strong>Final URL</strong> – адрес посадочной страницы. URL 
+страницы, на которую перейдет пользователь после клика по рекламному 
+объявлению. Целевая страница должна быть релевантной ключевому слову и 
+объявлению.</li>
+	<li><strong>Path 1</strong> и <strong>Path 2</strong> – путь 1 и путь 2
+ (каждый до 15 символов). Это элементы отображаемой ссылки, которую 
+увидит пользователь. В них можно указать ключевые слова, в этом случае 
+они будут выделены жирным.</li>
+	<li><strong>Max CPC</strong> – максимальная цена клика для группы 
+объявлений. Выставляется для всех групп объявлений и используется только
+ в том случае, если не указаны цены за клик на уровне ключевых слов.</li>
+	<li><strong>Final mobile URL </strong>(этого столбца нет на рисунках, 
+но он добавлен в таблицу) – адрес посадочной страницы для пользователей 
+смартфонов. Этот столбец нужно заполнять, если существует мобильная 
+версия сайта, URL которой отличается от основного. Например, если <strong>Final URL</strong> – <em>site.ru</em>, а <strong>Final mobile URL</strong> – <em>mobile.site.ru</em>, то должны быть заполнены оба эти столбца.</li>
+	<li>В столбцах под названиями <strong>H1, H2, D, P1, P2 </strong>указаны формулы для расчета количества символов в соответствующих ячейках<em> =ДЛСТР(ячейка)</em>.
+ Например, в ячейке M2 указана формула =ДЛСТР(E2). Она показывает, что в
+ заголовке 1 первой группы объявлений 13 символов, и при желании его 
+можно увеличить на 17 символов.</li>
+	<li>Также к столбцам <strong>H1, H2, D, P1, P2</strong> применяется правило выделения ячеек по условию «&gt;Больше». Для столбцов <strong>H1</strong> и <strong>H2</strong> – выделить, если больше 30; для столбца <strong>D</strong> – больше 80; для столбца <strong>P1</strong> и <strong>P2</strong>
+ – больше 15. Это правило позволяет определить, в каких ячейках при 
+заполнении таблицы был превышен лимит на количество символов в 
+заголовке, описании или пути.</li>
+</ul><p>Для наглядности основные элементы объявления указаны на картинке.<br><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image22-e1487144261413.png" data-src="/uploads/article_images/2017/02/image22-e1487144261413.png" data-loaded="true" width="800" height="277"><br>
+После заполнения таблицы данные нужно загрузить в Редактор Google AdWords.</p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image06-1.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image06-1.png" data-src="/uploads/article_images/2017/02/image06-1.png" data-loaded="true" width="800" height="422"></a><br><em>Основной интерфейс Редактора Google AdWords&nbsp;(кликните на картинку, чтобы увеличить ее)</em></p>
+
+<h3>Шаг 2. Импорт рекламной кампании в Google AdWords Editor</h3>
+
+<p>Сначала скопируйте первые четыре столбца с данными Campaign, Campaign Daily Budget, AdGroup, KeyWord.</p>
+
+<p><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image24-e1487146621233.png" data-src="/uploads/article_images/2017/02/image24-e1487146621233.png" class="moz-reader-block-img" moz-reader-center="true" width="600" height="327"></p>
+
+<p><em>Копирование четырех первых столбцов с данными</em></p>
+
+<p>Загрузите их в Редактор Google AdWords: <strong>Аккаунт – Импорт – Вставить текст</strong>.</p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image20-1.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image20.png" data-src="/uploads/article_images/2017/02/image20.png" width="800" height="422"></a><br><em>Путь для импорта данных в Редакторе AdWords&nbsp;(кликните на картинку, чтобы увеличить ее)</em></p>
+
+<p>В открывшемся окне нажать кнопку «Вставить из буфера обмена». В 
+таблице заполнятся ячейки. Важно проверить, чтобы название каждого 
+столбца правильно определилось в соответствии с названиями столбцов в 
+рекламной кампании.</p>
+
+<p><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image01-3-e1487146935271.png" data-src="/uploads/article_images/2017/02/image01-3-e1487146935271.png" width="600" height="431"><br><em>Заполнение столбцов в Редакторе Google AdWords</em></p>
+
+<p>Если в названии столбца была допущена ошибка, то при импорте в 
+Редактор AdWords в названии столбца появится надпись «Не импортировать».
+ В этом случае нужно исправить ошибку в названии столбца в таблице Excel
+ и повторить импорт еще раз.</p>
+
+<p>После успешного копирования первых четырех столбцов таблицы нажмите 
+кнопку «Обработать». Редактор AdWords определит количество импортируемых
+ объектов. Если ошибок нет, кликните на кнопку «Завершить и просмотреть 
+изменения».</p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image16-1.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image16-1.png" data-src="/uploads/article_images/2017/02/image16-1.png" width="600" height="430"></a><br><em>Вносимые изменения при импорте кампании</em></p>
+
+<p>После этого в главном окне Редактора нажать кнопку «Сохранить».</p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image14-1.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image14-1.png" data-src="/uploads/article_images/2017/02/image14-1.png" width="800" height="81"></a><br><em>Кнопка “Сохранить” в верхней области главного окна Редактора</em></p>
+
+<p>Теперь нужно импортировать объявления.</p>
+
+<h3>Шаг 3. Импорт объявлений</h3>
+
+<p>Для импорта созданных объявлений в соответствующие группы нужно 
+скопировать все данные таблицы за исключением последних пяти столбцов, в
+ которых велся подсчет количества символов в ячейках.</p>
+
+<p><img alt="данные" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/dannye.png" data-src="/uploads/article_images/2017/02/dannye.png"><br><em>Копирование всех данных таблицы</em></p>
+
+<p>После чего повторить вставку данных: <strong>Аккаунт – Импорт – Вставить текст</strong>.</p>
+
+<p><strong>ВАЖНО:</strong> После нажатия на кнопку «Вставить из буфера 
+обмена» необходимо найти столбец с ключевыми словами «KeyWord» и 
+изменить его на «Не импортировать».</p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image25-e1487148760153.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image25-e1487148760153.png" data-src="/uploads/article_images/2017/02/image25-e1487148760153.png" width="800" height="574"></a><br><em>Импорт данных и замена названия столбца KeyWord</em></p>
+
+<p>После этого нажмите на кнопку «Обработать». Редактор AdWords 
+определит количество импортируемых развернутых объявлений, их количество
+ должно соответствовать количеству групп объявлений. Если ошибок нет, 
+нужно нажать кнопку «Завершить и просмотреть изменения».</p>
+
+<div><p><a href="https://ppc.world/uploads/article_images/2017/02/image05-e1487149455985.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image05-e1487149462913.png" data-src="/uploads/article_images/2017/02/image05-e1487149462913.png" width="600" height="431"></a><br><em>Вносимые изменения – 17 развернутых объявлений</em></p><p>
+В главном окне нажать кнопку «Сохранить».&nbsp;Импорт рекламной кампании в Редактор Google AdWords завершен.</p></div>
+
+<p>После этого можно выставить все необходимые параметры рекламной 
+кампании непосредственно в Редакторе Google AdWords и опубликовать 
+изменения в готовую кампанию. Либо сначала опубликовать кампанию, а 
+затем настроить ее уже в веб-интерфейсе. Кому как привычней.</p>
+
+<p>Для публикации новой рекламной кампании нужно нажать кнопку «Опубликовать»:</p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image00-3-e1487149685194.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image00-3-e1487149685194.png" data-src="/uploads/article_images/2017/02/image00-3-e1487149685194.png" width="800" height="410"></a><br><em>Публикация рекламной кампании</em></p>
+
+<p>Откроется окно загрузки изменений в аккаунт с указанием типа и 
+количества изменений, которые будут опубликованы. Нужно нажать кнопку 
+«Опубликовать».</p>
+
+
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image23-1.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image23-1.png" data-src="/uploads/article_images/2017/02/image23-1.png" width="470" height="451"></a><br><em>Публикация кампании</em></p>
+
+<p>Если в элементах рекламной кампании не было ошибок, то публикация 
+пройдет успешно. Если были ошибки, система отобразит их в правом столбце
+ «Не будет опубликовано». Нужно будет внести необходимые изменения и 
+опубликовать изменения повторно.</p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image03.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image03.png" data-src="/uploads/article_images/2017/02/image03.png" width="468" height="390"></a><br><em>Завершение публикации созданной кампании</em></p>
+
+<p>Публикация завершена. Можно перейти в веб-интерфейс Google AdWords и продолжить работу с рекламной кампанией.</p>
+
+<h2>Способ 2: Создание рекламной кампании по типу «1-2-5»</h2>
+
+<p>Рассмотрим способ создания кампании, когда в каждой группе объявлений
+ будет несколько похожих ключевых фраз и по два объявления. Напомню, что
+ название «1-2-5» условное. При группировке ключевых слов иногда в одной
+ группе их будет больше или меньше пяти, а объявлений может быть больше 
+двух. Сначала об особенностях создания кампании по такому принципу.</p>
+
+<p><strong>Плюсы:</strong></p>
+
+<ul><li>возможен А/B тест объявлений с разными заголовками и текстами;</li>
+	<li>объединение ключевых фраз в группы облегчает навигацию внутри аккаунта.</li>
+</ul><p><strong>Минусы:</strong></p>
+
+<ul><li>время создания рекламной кампании увеличивается;</li>
+	<li>невозможно добиться максимального показателя качества по всем ключевым словам в группе;</li>
+	<li>некоторые системы аналитики и коллтрекинга не понимают такую 
+структуру рекламных кампаний и не могут определить, по какому ключевику 
+была конверсия.</li>
+</ul><p>Этот способ создания рекламных кампаний особенно пригодится 
+рекламодателям с большим количеством ключевых слов, так как значительно 
+сократит количество групп объявлений в кампании.</p>
+
+<h3>Шаг 1. Подготовка рекламной кампании</h3>
+
+<p>Шаблон таблицы Excel остается таким же, как и в первом способе. Пример заполненной таблицы показан на рисунке ниже:</p>
+
+<p><img alt="таблица" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/excel.png" data-src="/uploads/article_images/2017/02/excel.png"><br><em>Таблица Excel для кампании по типу «1-2-5»</em></p>
+
+<ul><li><strong>Campaign</strong> – название рекламной кампании, одинаковое во всех строчках.</li>
+	<li><strong>Campaign Daily Budget</strong> – дневной бюджет кампании. В дальнейшем дневной бюджет можно изменить в Редакторе или в веб-интерфейсе Google AdWords.</li>
+	<li><strong>AdGroup</strong> – название группы объявлений. При создании
+ рекламной кампании по принципу «1-2-5» в каждую группу объявлений может
+ входить несколько ключевых слов. Поэтому в некоторых строках название 
+групп объявлений будет повторяться.</li>
+	<li><strong>KeyWord</strong> – ключевое слово. Ключевые слова должны 
+быть заранее отсортированы и объединены в группы, соответствующие 
+группам объявлений. Проще сначала вставлять все ключевые слова группы в 
+таблицу, а потом протягивать название группы к соответствующим 
+ключевикам.</li>
+	<li><strong>Headline&nbsp;1, Headline&nbsp;2, Headline&nbsp;3, 
+Description1, Description2, Final URL, Path&nbsp;1, Path&nbsp;2, Mobile 
+final URL</strong> добавляются в&nbsp;двух вариантах для каждой группы объявлений.</li>
+	<li><strong>Max CPC</strong> выставляется для всех групп объявлений, значение максимальной цены клика можно просто протянуть на все строки.</li>
+</ul><h3>Шаг 2. Загрузка&nbsp;кампании в Редактор AdWords</h3>
+
+<p>Когда все данные занесены в таблицу, их нужно загрузить в Редактор 
+Google AdWords. Процесс импорта ничем не отличается от описанного выше. 
+Дальше он представлен скриншотами без описания.</p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image21.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image21.png" data-src="/uploads/article_images/2017/02/image21.png" width="700" height="371"></a><br><em>Копирование первых четырех столбцов</em></p>
+
+<p><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image12-e1487151439550.png" data-src="/uploads/article_images/2017/02/image12-e1487151439550.png" width="800" height="574"><br><em>Вставка первых четырех столбцов данных в Редактор Google AdWords</em></p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image09-1.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image09-1-e1487151682660.png" data-src="/uploads/article_images/2017/02/image09-1-e1487151682660.png" width="600" height="428"></a><br><em>Вносимые изменения: 1 кампания, 5 групп объявлений, 17 ключевых слов</em></p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image19-e1487151849469.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image19-e1487151849469.png" data-src="/uploads/article_images/2017/02/image19-e1487151849469.png" width="800" height="573"></a><br><em>Вставка развернутых объявлений и замена названия KeyWord на «Не импортировать»</em></p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image10.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image10.png" data-src="/uploads/article_images/2017/02/image10.png" width="500" height="359"></a><br><em>Вносимые изменения – 9 развернутых текстовых объявлений</em></p>
+
+
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image02-2.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image02-2.png" data-src="/uploads/article_images/2017/02/image02-2.png" width="500" height="477"></a><br><em>Публикация рекламной кампании из Редактора AdWords</em></p>
+
+<p><a href="https://ppc.world/uploads/article_images/2017/02/image07.png" target="_blank"><img alt="" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/image07.png" data-src="/uploads/article_images/2017/02/image07.png" width="500" height="417"></a><br><em>Рекламная кампания по типу «1-2-5» успешно опубликована<br>
+П</em>осле публикации рекламной кампании, можно перейти в веб-интерфейс и
+ убедиться, что в каждой группе объявлений есть по два развернутых 
+объявления и несколько ключевых слов.</p>
+
+<p>Создание рекламной кампании в Google AdWords с помощью Excel завершено.</p>
+
+<h2>Несколько дополнений</h2>
+
+<p>Хочется заметить, что способов структурировать рекламные кампании 
+много, и разные специалисты и рекламодатели выбирают наиболее 
+оптимальный для конкретной ситуации, исходя из объема проекта, личного 
+опыта и убеждений.</p>
+
+<p>Ничто не мешает вам создать кампанию по принципу «1-2-1», добавив в 
+каждую группу по 2 варианта объявлений для экспериментов. Если вы 
+профессионально занимаетесь настройкой рекламных кампаний, то должны 
+постоянно проводить эксперименты с объявлениями, чтобы &nbsp;улучшать 
+технические (показатель качества, CTR) и бизнес показателей (коэффициент
+ конверсий, ROI).</p>
+
+<p>Также есть способ, когда в каждую группу объявлений кампании, 
+созданной по принципу «1-1-1», добавляют ключевые слова в разных типах 
+соответствия: +модификатор +широкого, “фразовое” и [точное]. Такой 
+подход позволяет быть уверенным, что, когда пользователь вводит 
+поисковый запрос, точно совпадающий с ключевым словом, произойдет показ 
+объявления именно из этой группы.</p>
+
+<h3>Рекомендация по настройке новой рекламной кампании</h3>
+
+<p>Если вы новичок в Google AdWords и вам нужна рекомендация, то вот 
+она: ориентируйтесь на свои потребности и по возможности тестируйте 
+разные способы создания рекламных кампаний. Ни один специалист без 
+эксперимента не может сказать точно, какой из способов сработает лучше в
+ вашем конкретном случае.</p>
+
+<p>Если для вас не важна четкая структура внутри кампаний, и вам будет 
+удобно управлять ставками, создавайте SKAg кампании. В каждой группе 
+используйте ключевые слова с модификатором широкого соответствия или с 
+модификатором, во фразовом и точном соответствии одновременно. И 
+добивайтесь показателя качества 10/10. Тогда ваши объявления будут 
+попадать на более выгодные позиции, CTR со временем вырастет, а цена 
+клика снизится.</p>
+
+<p><img alt="ctr" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/ctr.png" data-src="/uploads/article_images/2017/02/ctr.png" class="moz-reader-block-img" width="484" height="190"></p>
+
+<h3>Пересечения ключевых фраз внутри рекламной кампании</h3>
+
+<p>Не стоит также забывать о перекрестной минусовке на уровне групп 
+объявлений. Она необходима, чтобы исключить конкуренцию за показ между 
+ключевыми словами с короткими и длинными хвостами. Наверняка в вашей 
+рекламной кампании будут две или более ключевые фразы, которые 
+начинаются одинаково или являются частью друг друга.</p>
+
+<p>Возьмем для примера два ключевика <em>+резка +металла</em> и <em>+лазерная +резка +металла</em>. Если в первую группу объявлений не добавить минус-слово в широком соответствии <em>лазерная </em>или минус-фразу в точном соответствии<em> [лазерная резка металла]</em>, то ключевые фразы будут конкурировать за показ объявления по поисковому запросу <em>лазерная резка металла</em>.
+ В момент ввода поискового запроса произойдет аукцион в реальном времени
+ среди всех рекламодателей с соответствующими ключевыми словами. В том 
+числе в аукционе примут участие два объявления из вашей рекламной 
+кампании. В результате аукциона будет показано объявление, которое 
+выиграет по многим показателям, в том числе по произведению ставки на 
+показатель качества. В идеальном варианте со временем нужно прийти к 
+тому, чтобы каждому поисковому запросу пользователя точно 
+соответствовало ключевое слово в вашей кампании.</p>
+
+<h4>Ложка дегтя в историю про кросс-минусовку</h4>
+
+<p>Однако в кросс-минусовке есть свои подводные камни. В Google AdWords есть особый статус <strong>«Мало запросов»</strong>.
+ Он присваивается ключевым словам, которые соответствуют редким 
+поисковым запросам. Объявления по ключевикам с таким статусом не будут 
+показываться, пока количество поисковых запросов не увеличится (возможно
+ это не произойдет никогда, если это не сезонный ключевик). Если вы 
+глубоко прорабатываете семантику и собираете низкочастотные ключевые 
+фразы, то после публикации рекламной кампании ключевиков со статусом 
+«Мало показов» может быть довольно много.</p>
+
+<p><img alt="Мало запросов" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/malo_zaprosov.png" data-src="/uploads/article_images/2017/02/malo_zaprosov.png" class="moz-reader-block-img" width="422" height="600"></p>
+
+
+
+<p>Чтобы не потерять ценный трафик по редким поисковым запросам, их 
+нужно охватить другими ключевыми словами. Например, если в моем примере 
+ключевая фраза <em>+лазерная +резка +металла</em> получит статус «Мало запросов», то добавлять минус-слова в группу объявлений с фразой <em>+резка +металла</em>
+ не нужно. Поэтому стоит быть очень внимательным и делать перекрестную 
+минусовку либо вручную, либо перепроверять за автоматическими скриптами.</p>
+
+<p>И не забывайте о том, что в Google AdWords в отличие от 
+Яндекс.Директа минус-слова блокируют ключевую фразу в случае конфликта. 
+Об этом я писал <a href="http://ppc.world/articles/skript-dlya-proverki-konfliktuyushhih-minus-slov-v-google-adwords/" target="_blank">здесь</a>.</p>
+
+<h3>Использование динамической вставки ключевых слов</h3>
+
+<p>Помимо этого в Google AdWords есть <strong>динамическая вставка ключевых слов (шаблоны)</strong>,
+ которая позволяет автоматически подставлять ключевое слово в заголовок 
+или описание объявления, если не превышает ограничение по количеству 
+символов. В противном случае будет показан заданный в шаблоне текст.</p>
+
+<p><img alt="динамическая вставка ключевых слов" src="%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D0%BE%D0%B9%20%D0%BA%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D0%B8%20AdWords%20%D1%81%20Excel%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80a%20Adwords%20-%20ppc_files/dinamicheskaya_vstavka.png" data-src="/uploads/article_images/2017/02/dinamicheskaya_vstavka.png" class="moz-reader-block-img" moz-reader-center="true"></p>
+
+<p>Такой подход может сэкономить время при создании рекламной кампании, 
+так как специалисту не придется вручную оптимизировать каждый заголовок и
+ описание объявлений. Использование шаблонов оправдано при работе с 
+огромными каталогами интернет-магазинов, когда обработать вручную все 
+объявления практически невозможно.</p>
+
+<p>Однако в большинстве случаев лучше постараться обойтись без них. 
+Причины против их использования две. Во-первых, ключевые фразы в группах
+ должны быть однотипными и максимально релевантными тексту в шаблоне. 
+Во-вторых, ключевики должны быть достаточно короткими, чтобы произошла 
+автоподстановка. Иначе вам либо придется отказаться от использования 
+ключевиков с длинными хвостами, которые зачастую дают ценный трафик; 
+либо у вас не получится достигнуть максимальной релевантности объявлений
+ и высокого показателя качества.</p>
+
+<p>На этом у меня всё. О способах оптимизации поисковых рекламных кампаний в Google AdWords я напишу в одной из следующих статей.</p>
+
+<p>Напишите в комментариях, какой способ настройки рекламных кампаний в Google AdWords используете вы и почему.</p>
+
+<p>Успехов в настройке!</p>
+                                </div></div></div>
+    </div>
+
+    <div>
+      <div class="reader-message"></div>
+    </div>
+    <div aria-owns="toolbar"></div>
+  </div>
+
+  <div id="pocket-cta-container" hidden="">
+    <div class="pocket-cta-inner" id="pocket-cta-only">
+      <div class="pocket-cta">
+        <header class="pocket-cta-header">Save anything from across the web in Pocket, your personal library.</header>
+        <p class="pocket-cta-subhead">As part of the Firefox family, 
+Pocket provides a quiet, calm space that’s perfect for reading. It 
+strips away all the distractions of the internet so you can really 
+focus.</p>
+        <a href="https://getpocket.com/signup?utm_source=firefox_reader&amp;utm_medium=variant_cta_only" class="pocket-btn pocket-sign-up"><strong>Sign up</strong> - it’s free</a>
+        <a href="https://getpocket.com/explore?utm_source=firefox_reader&amp;utm_medium=variant_cta_only" class="pocket-btn pocket-discover-more"><strong>Discover more</strong></a>
+      </div>
+      <button class="pocket-dismiss-cta" title="Dismiss"></button>
+    </div>
+
+    <div class="pocket-cta-inner" id="pocket-cta-and-recs">
+      <div class="pocket-recs-top">
+        <div class="col">
+          <header class="pocket-cta-header">Discover the most thought-provoking stories out there, curated by Pocket.</header>
+          <p class="pocket-cta-subhead">As part of the Firefox family, 
+Pocket surfaces the best articles out there—new perspectives, intriguing
+ deep-dives, timeless classics—and we do this with the same dedication 
+to privacy you’ve come to expect from Firefox and Mozilla. </p>
+        </div>
+        <div class="col">
+          <button class="pocket-collapse-recs"></button>
+        </div>
+      </div>
+
+      <div class="pocket-recs"></div>
+
+      <div class="pocket-sign-up-wrapper">
+        <a href="https://getpocket.com/explore?utm_source=firefox_reader&amp;utm_medium=variant_cta_plus_recs" class="pocket-btn pocket-sign-up"><strong>Discover more</strong></a>
+      </div>
+    </div>
+  </div>
+
+
+
+</body></html>
