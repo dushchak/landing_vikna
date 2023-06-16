@@ -1,22 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
+@media (max-width:1280px){
+	body {
+		font-size: 100%;
+		background-color: #fff	;
+	}
+	
+}
+
+
+
 body {
+
 	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	
 }
 
-.header {
-	display: flex;
-	justify-content: space-between;
-	max-width: 800px;
-	margin: 0 auto;
+h3 {
+	color: #6B6905;
+	font-size: 1.5rem;
+	padding: 50px 0 0 0;
 }
 
-.header__logo {
-	width: 100%;
-
-}
-
-.promo {
+.wrap {
 	width: 800px;
 	margin: 0 auto;
 }
+
+.header__wrap {
+	width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 43px 0 43px 57px;
+}
+
+.header__logo {
+	padding: 4px 0 0 0;
+	width: 100px;
+}
+.header__phone a{
+	font-size: 2rem;
+	font-weight: 900;
+	color:#0B486B;
+	text-decoration: none;
+}
+
+.promo {
+
+}
+.promo__title {
+	display: flex;
+	justify-content: space-between;
+}
+.promo__title li {
+	list-style: none;
+	color: #6B6905;
+	font-size: 4rem;
+	font-weight: 900;
+}
+/* другий елемент великого заголовку  */
+.promo__title li:nth-child(2){
+	color: #B8B412;
+}
+.promo__subtitle {
+	width: 600px;
+	text-align: center;
+	color: #B8B412;
+	font-size: 2rem;
+}
+.promo__subtitle span {
+	color: #6B6905;
+}
+
+/* price */
+.price {
+}
+.price__templates {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.price__templates img {
+	height: 100px;
+}
+.price__item p {
+	color: #0074B8;
+	font-size: 1rem;
+	font-weight: 400;
+}
+.price__item p span {
+	color: #B81218;
+	font-size: 1rem;
+	font-weight: 400;
+	display: inherit;
+}
+
+/* steps */
+.steps__wrap {
+	text-align: center;
+}
+
+/* materials */
+.materials h4 {
+	color: #0B486B;
+}
+.materials dd {
+	color: #0074B8;
+	font-weight: 700;
+}
+
+.materials__block {
+	display: flex;
+	justify-content: space-around;
+}
+
+/* benefits */
+.benefits li {
+	list-style-image: url("../img/design/check.svg");
+	margin: 5px;
+	padding: 0 0 0 5px;
+}
+
+/* gallery */
+.gallery__images {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.gallery img{
+	width:200px;
+	border-radius: 10px;
+}
+
+/* contacts */
+.contacts img {
+	border-radius: 10px;
+	padding: 5px;
+}
+.contacts__lastoffer {
+	margin: 60px 0;
+	padding: 60px 0 ;
+	border: 1px solid #0B486B;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 900;
+	color: #6B6905;
+
+}
+.contacts__lastoffer a {
+	text-decoration: none;
+	color: #B8B412;
+}
+
+
+
+
