@@ -181,7 +181,13 @@ footer {
 
 
 /*
-lorem 
+lorem kl;fdkg;fdlkg 
+fdf
+dfg
+dfgdfgdfgdf
+fdgdfgfdgfdggg
+
+
 */
 
 /* меньше 360px */
@@ -230,6 +236,9 @@ lorem
 	.price__templates {
 		flex-direction: column;
     }
+    .price__templates img {
+	height: 70px;
+}
 
     .steps__img {
     	display: none;
@@ -237,7 +246,32 @@ lorem
     .steps__img2 {
     	display: block;
     }
+
+    .gallery img {
+    	max-width: 100%;
+    	margin:5px;
+    }
+    .gallery__images {
+	  grid-template-columns: 1fr;
+
+	}
+
+	.contacts img {
+		max-width: 100%;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 360px){
 	body {
