@@ -521,21 +521,610 @@
 	[
 		{
 			"file": "index2.html",
+			"redo_stack":
+			[
+				[
+					49,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AgAAAA8HAAAAAAAApAcAAAAAAAAAAAAADgcAAAAAAAAOBwAAAAAAAAEAAAAJ",
+					"AQAAAAAAAAABAAAADwcAAAAAAAAPBwAAAAAAAAAAAAAAAPC/"
+				]
+			],
 			"settings":
 			{
-				"buffer_size": 8206,
+				"buffer_size": 8258,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"",
+					null,
+					"AgAAAHMcAAAAAAAAgxwAAAAAAAAAAAAAgxwAAAAAAACDHAAAAAAAACYAAAA0OS4yMjQ2OTI0Nzc3Njc2MDQsIDI4LjQxNjUzMjkzNTg0MzEwOA",
+					"AQAAAAAAAAABAAAAmRwAAAAAAABzHAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": "\na"
+					},
+					"BAAAAO0GAAAAAAAA7gYAAAAAAAAAAAAA7gYAAAAAAADwBgAAAAAAAAAAAADwBgAAAAAAAPEGAAAAAAAAAAAAAPEGAAAAAAAA8gYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7QYAAAAAAADtBgAAAAAAAAAAAAAAkHJA"
+				],
+				[
+					10,
+					1,
+					"emmet_expand_abbreviation",
+					{
+						"tab": true
+					},
+					"AgAAAPEGAAAAAAAA8QYAAAAAAAABAAAAYfEGAAAAAAAAAAcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA8gYAAAAAAADyBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "tel"
+					},
+					"AwAAAPoGAAAAAAAA+wYAAAAAAAAAAAAA+wYAAAAAAAD8BgAAAAAAAAAAAAD8BgAAAAAAAP0GAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA+gYAAAAAAAD6BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAAP0GAAAAAAAA/gYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/QYAAAAAAAD9BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "0683"
+					},
+					"BAAAAP4GAAAAAAAA/wYAAAAAAAAAAAAA/wYAAAAAAAAABwAAAAAAAAAAAAAABwAAAAAAAAEHAAAAAAAAAAAAAAEHAAAAAAAAAgcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/gYAAAAAAAD+BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "797974"
+					},
+					"BgAAAAIHAAAAAAAAAwcAAAAAAAAAAAAAAwcAAAAAAAAEBwAAAAAAAAAAAAAEBwAAAAAAAAUHAAAAAAAAAAAAAAUHAAAAAAAABgcAAAAAAAAAAAAABgcAAAAAAAAHBwAAAAAAAAAAAAAHBwAAAAAAAAgHAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAgcAAAAAAAACBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAKsHAAAAAAAArAcAAAAAAAAAAAAArAcAAAAAAACvBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwcAAAAAAACrBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"paste",
+					null,
+					"AQAAAKsHAAAAAAAAxAcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwcAAAAAAACrBwAAAAAAAAAAAAAAAFtA"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAF8IAAAAAAAAYAgAAAAAAAAAAAAAYAgAAAAAAABjCAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAXwgAAAAAAABfCAAAAAAAAAAAAAAA0HRA"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "<"
+					},
+					"AQAAAGMIAAAAAAAAZAgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYwgAAAAAAABjCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"close_tag",
+					{
+						"insert_slash": true
+					},
+					"AwAAAGQIAAAAAAAAZwgAAAAAAAAAAAAAYAgAAAAAAABgCAAAAAAAAAMAAAAJCQlgCAAAAAAAAGIIAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAZAgAAAAAAABkCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAGIIAAAAAAAAYwgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAYggAAAAAAABiCAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAKsHAAAAAAAArAcAAAAAAAAAAAAArAcAAAAAAACvBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwcAAAAAAACrBwAAAAAAAAAAAAAAAFtA"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "<"
+					},
+					"AQAAAKsHAAAAAAAArAcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqwcAAAAAAACrBwAAAAAAAAAAAAAAAFtA"
+				],
+				[
+					38,
+					1,
+					"close_tag",
+					{
+						"insert_slash": true
+					},
+					"AQAAAKwHAAAAAAAAsQcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArAcAAAAAAACsBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					4,
+					"left_delete",
+					null,
+					"BAAAALAHAAAAAAAAsAcAAAAAAAABAAAAPq8HAAAAAAAArwcAAAAAAAABAAAAdq4HAAAAAAAArgcAAAAAAAABAAAAaa0HAAAAAAAArQcAAAAAAAABAAAAZA",
+					"AQAAAAAAAAABAAAAsQcAAAAAAACxBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": "a>"
+					},
+					"AgAAAK0HAAAAAAAArgcAAAAAAAAAAAAArgcAAAAAAACvBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArQcAAAAAAACtBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					4,
+					"left_delete",
+					null,
+					"BAAAAA0HAAAAAAAADQcAAAAAAAABAAAAPgwHAAAAAAAADAcAAAAAAAABAAAAYQsHAAAAAAAACwcAAAAAAAABAAAALwoHAAAAAAAACgcAAAAAAAABAAAAPA",
+					"AQAAAAAAAAABAAAADgcAAAAAAAAOBwAAAAAAAAAAAAAAAPC/"
+				]
+			]
 		},
 		{
 			"file": "css/my2.css",
 			"settings":
 			{
-				"buffer_size": 4141,
+				"buffer_size": 6403,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
-			}
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					2,
+					"left_delete",
+					null,
+					"AgAAAL8RAAAAAAAAvxEAAAAAAAABAAAAOb4RAAAAAAAAvhEAAAAAAAABAAAAOQ",
+					"AQAAAAAAAAABAAAAwBEAAAAAAADAEQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "60"
+					},
+					"AgAAAL4RAAAAAAAAvxEAAAAAAAAAAAAAvxEAAAAAAADAEQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvhEAAAAAAAC+EQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAN4WAAAAAAAA3xYAAAAAAAAAAAAA3xYAAAAAAADgFgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3hYAAAAAAADeFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"",
+					null,
+					"AQAAAOAWAAAAAAAABBcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4BYAAAAAAADgFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "."
+					},
+					"AQAAAOAWAAAAAAAA4RYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4BYAAAAAAADgFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAN4WAAAAAAAA3xYAAAAAAAAAAAAA3xYAAAAAAADgFgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3hYAAAAAAADeFgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "\t\t"
+					},
+					"AwAAAPcWAAAAAAAA+BYAAAAAAAAAAAAA3xYAAAAAAADfFgAAAAAAAAEAAAAJ9xYAAAAAAAD4FgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9xYAAAAAAAD3FgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAAgXAAAAAAAACRcAAAAAAAAAAAAACRcAAAAAAAANFwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACBcAAAAAAAAIFwAAAAAAAP///////+9/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "}"
+					},
+					"AwAAAA0XAAAAAAAADhcAAAAAAAAAAAAACRcAAAAAAAAJFwAAAAAAAAQAAAAgIAkJCRcAAAAAAAAMFwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADRcAAAAAAAANFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAA0XAAAAAAAADhcAAAAAAAAAAAAADhcAAAAAAAARFwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADRcAAAAAAAANFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"",
+					null,
+					"AQAAABEXAAAAAAAAdBcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAERcAAAAAAAARFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAHMXAAAAAAAAdBcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcxcAAAAAAABzFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"indent",
+					null,
+					"BAAAACQXAAAAAAAAJRcAAAAAAAAAAAAAOBcAAAAAAAA5FwAAAAAAAAAAAABKFwAAAAAAAEsXAAAAAAAAAAAAAF0XAAAAAAAAXhcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJRcAAAAAAABbFwAAAAAAAAAAAAAAAEJA"
+				],
+				[
+					36,
+					1,
+					"left_delete",
+					null,
+					"AQAAAF8XAAAAAAAAXxcAAAAAAAAXAAAALyogZm9udC13ZWlnaHQ6IDkwMDsgKi8",
+					"AQAAAAAAAAABAAAAXxcAAAAAAAB2FwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"right_delete",
+					null,
+					"AQAAACYXAAAAAAAAJhcAAAAAAAAjAAAAbGlzdC1zdHlsZTogbm9uZTsKCQljb2xvcjogIzZCNjkwNTs",
+					"AQAAAAAAAAABAAAAJhcAAAAAAABJFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					3,
+					"left_delete",
+					null,
+					"AwAAACUXAAAAAAAAJRcAAAAAAAABAAAACSQXAAAAAAAAJBcAAAAAAAABAAAACSMXAAAAAAAAIxcAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAJhcAAAAAAAAmFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					3,
+					"left_delete",
+					null,
+					"AwAAADgXAAAAAAAAOBcAAAAAAAABAAAACTcXAAAAAAAANxcAAAAAAAABAAAACTYXAAAAAAAANhcAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAORcAAAAAAAA5FwAAAAAAAAAAAAAAwGhA"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAADkXAAAAAAAAOhcAAAAAAAAAAAAAOhcAAAAAAAA7FwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAORcAAAAAAAA5FwAAAAAAAAAAAAAAAGtA"
+				],
+				[
+					47,
+					1,
+					"",
+					null,
+					"AQAAADsXAAAAAAAAlRcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOxcAAAAAAAA7FwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAJQXAAAAAAAAlRcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlBcAAAAAAACUFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"indent",
+					null,
+					"BAAAAE4XAAAAAAAATxcAAAAAAAAAAAAAXhcAAAAAAABfFwAAAAAAAAAAAABzFwAAAAAAAHQXAAAAAAAAAAAAAIUXAAAAAAAAhhcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATxcAAAAAAACDFwAAAAAAAAAAAAAAAEJA"
+				],
+				[
+					60,
+					4,
+					"left_delete",
+					null,
+					"BAAAAGAXAAAAAAAAYBcAAAAAAAAkAAAAdGV4dC1hbGlnbjogcmlnaHQ7CgkJY29sb3I6ICNCOEI0MTI7XxcAAAAAAABfFwAAAAAAAAEAAAAJXhcAAAAAAABeFwAAAAAAAAEAAAAJXRcAAAAAAABdFwAAAAAAAAEAAAAK",
+					"AQAAAAAAAAABAAAAYBcAAAAAAACEFwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAKgFAAAAAAAAqQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqAUAAAAAAACoBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAKkFAAAAAAAAqgUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqQUAAAAAAACpBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					65,
+					1,
+					"left_delete",
+					null,
+					"AQAAAKkFAAAAAAAAqQUAAAAAAAABAAAALA",
+					"AQAAAAAAAAABAAAAqgUAAAAAAACqBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"insert",
+					{
+						"characters": ".mat"
+					},
+					"BAAAAKkFAAAAAAAAqgUAAAAAAAAAAAAAqgUAAAAAAACrBQAAAAAAAAAAAACrBQAAAAAAAKwFAAAAAAAAAAAAAKwFAAAAAAAArQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqQUAAAAAAACpBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					67,
+					1,
+					"insert_dimensions",
+					null,
+					"AgAAAKoFAAAAAAAAqgUAAAAAAAADAAAAbWF0qgUAAAAAAACzBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArQUAAAAAAACtBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"insert",
+					{
+						"characters": " dt"
+					},
+					"AwAAALMFAAAAAAAAtAUAAAAAAAAAAAAAtAUAAAAAAAC1BQAAAAAAAAAAAAC1BQAAAAAAALYFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAswUAAAAAAACzBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					69,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAALYFAAAAAAAAtwUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgUAAAAAAAC2BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAALcFAAAAAAAAuQUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtwUAAAAAAAC3BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					71,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"AwAAALgFAAAAAAAAuQUAAAAAAAAAAAAAuQUAAAAAAAC6BQAAAAAAAAAAAAC5BQAAAAAAALoFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAUAAAAAAAC4BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					72,
+					1,
+					"insert",
+					{
+						"characters": "flo"
+					},
+					"AwAAALoFAAAAAAAAuwUAAAAAAAAAAAAAuwUAAAAAAAC8BQAAAAAAAAAAAAC8BQAAAAAAAL0FAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAugUAAAAAAAC6BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					73,
+					1,
+					"insert",
+					{
+						"characters": "at"
+					},
+					"AgAAAL0FAAAAAAAAvgUAAAAAAAAAAAAAvgUAAAAAAAC/BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvQUAAAAAAAC9BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					74,
+					1,
+					"insert_dimensions",
+					null,
+					"AgAAALoFAAAAAAAAugUAAAAAAAAFAAAAZmxvYXS6BQAAAAAAAMIFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvwUAAAAAAAC/BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					75,
+					1,
+					"insert",
+					{
+						"characters": "le"
+					},
+					"AgAAAMEFAAAAAAAAwgUAAAAAAAAAAAAAwgUAAAAAAADDBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwQUAAAAAAADBBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					76,
+					1,
+					"insert_dimensions",
+					null,
+					"AgAAAMEFAAAAAAAAwQUAAAAAAAACAAAAbGXBBQAAAAAAAMUFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwwUAAAAAAADDBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line.sublime-macro"
+					},
+					"AgAAAMYFAAAAAAAAxwUAAAAAAAAAAAAAxwUAAAAAAADIBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxQUAAAAAAADFBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					78,
+					1,
+					"insert",
+					{
+						"characters": "li"
+					},
+					"AgAAAMgFAAAAAAAAyQUAAAAAAAAAAAAAyQUAAAAAAADKBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyAUAAAAAAADIBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					79,
+					1,
+					"insert",
+					{
+						"characters": "n"
+					},
+					"AQAAAMoFAAAAAAAAywUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAygUAAAAAAADKBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"insert_dimensions",
+					null,
+					"AgAAAMgFAAAAAAAAyAUAAAAAAAADAAAAbGluyAUAAAAAAADWBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAywUAAAAAAADLBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					81,
+					1,
+					"insert",
+					{
+						"characters": "1.5"
+					},
+					"AwAAANUFAAAAAAAA1gUAAAAAAAAAAAAA1gUAAAAAAADXBQAAAAAAAAAAAADXBQAAAAAAANgFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1QUAAAAAAADVBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					84,
+					1,
+					"insert",
+					{
+						"characters": "400"
+					},
+					"BAAAAAMUAAAAAAAABBQAAAAAAAAAAAAABBQAAAAAAAAEFAAAAAAAAAMAAAAyNDAEFAAAAAAAAAUUAAAAAAAAAAAAAAUUAAAAAAAABhQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABhQAAAAAAAADFAAAAAAAAAAAAAAAAPC/"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -746,7 +1335,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -785,8 +1374,10 @@
 			"design/profiles/"
 		],
 		"reverse": false,
+		"scrollbar_highlights": true,
 		"show_context": true,
 		"use_buffer2": true,
+		"use_gitignore": true,
 		"whole_word": false,
 		"wrap": true
 	},
@@ -798,18 +1389,19 @@
 				{
 					"buffer": 0,
 					"file": "index2.html",
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8206,
+						"buffer_size": 8258,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2176,
+								2176
 							]
 						],
 						"settings":
@@ -821,8 +1413,8 @@
 								{
 									"1":
 									[
-										1023,
-										1030
+										2168,
+										2175
 									]
 								},
 								"icon":
@@ -837,8 +1429,8 @@
 								{
 									"1":
 									[
-										653,
-										660
+										1699,
+										1706
 									]
 								},
 								"unmatched":
@@ -847,11 +1439,11 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -862,78 +1454,439 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
 							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
+					"stack_multiselect": false,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 1,
 					"file": "css/my2.css",
+					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4141,
+						"buffer_size": 6403,
 						"regions":
 						{
+							"col_0074B8FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1148,
+										1155
+									],
+									[
+										1524,
+										1531
+									]
+								],
+								"scope": "col_0074B8FF"
+							},
+							"col_0074B8FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0074B8FF_circle.png",
+								"regions":
+								[
+									[
+										1140,
+										1140
+									],
+									[
+										1516,
+										1516
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_0B486BFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										506,
+										513
+									],
+									[
+										1438,
+										1445
+									],
+									[
+										2051,
+										2058
+									],
+									[
+										2295,
+										2302
+									],
+									[
+										2967,
+										2974
+									],
+									[
+										3934,
+										3941
+									],
+									[
+										4914,
+										4921
+									]
+								],
+								"scope": "col_0B486BFF"
+							},
+							"col_0B486BFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_0B486BFF_circle.png",
+								"regions":
+								[
+									[
+										499,
+										499
+									],
+									[
+										1430,
+										1430
+									],
+									[
+										2043,
+										2043
+									],
+									[
+										2276,
+										2276
+									],
+									[
+										2959,
+										2959
+									],
+									[
+										3926,
+										3926
+									],
+									[
+										4906,
+										4906
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_666666FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2517,
+										2521
+									]
+								],
+								"scope": "col_666666FF"
+							},
+							"col_666666FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_666666FF_circle.png",
+								"regions":
+								[
+									[
+										2498,
+										2498
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_6B6905FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										178,
+										185
+									],
+									[
+										692,
+										699
+									],
+									[
+										955,
+										962
+									],
+									[
+										2392,
+										2399
+									],
+									[
+										3053,
+										3060
+									],
+									[
+										4020,
+										4027
+									],
+									[
+										5043,
+										5050
+									]
+								],
+								"scope": "col_6B6905FF"
+							},
+							"col_6B6905FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_6B6905FF_circle.png",
+								"regions":
+								[
+									[
+										170,
+										170
+									],
+									[
+										684,
+										684
+									],
+									[
+										947,
+										947
+									],
+									[
+										2384,
+										2384
+									],
+									[
+										3044,
+										3044
+									],
+									[
+										4011,
+										4011
+									],
+									[
+										5034,
+										5034
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_B81218FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1226,
+										1233
+									]
+								],
+								"scope": "col_B81218FF"
+							},
+							"col_B81218FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_B81218FF_circle.png",
+								"regions":
+								[
+									[
+										1218,
+										1218
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_B8B412FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										820,
+										827
+									],
+									[
+										894,
+										901
+									],
+									[
+										2461,
+										2468
+									],
+									[
+										3167,
+										3174
+									],
+									[
+										4137,
+										4144
+									],
+									[
+										5160,
+										5167
+									]
+								],
+								"scope": "col_B8B412FF"
+							},
+							"col_B8B412FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_B8B412FF_circle.png",
+								"regions":
+								[
+									[
+										812,
+										812
+									],
+									[
+										886,
+										886
+									],
+									[
+										2453,
+										2453
+									],
+									[
+										3159,
+										3159
+									],
+									[
+										4128,
+										4128
+									],
+									[
+										5151,
+										5151
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2530,
+										2534
+									],
+									[
+										2699,
+										2703
+									],
+									[
+										3667,
+										3671
+									],
+									[
+										4647,
+										4651
+									],
+									[
+										5896,
+										5900
+									],
+									[
+										6260,
+										6264
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										2523,
+										2523
+									],
+									[
+										2679,
+										2679
+									],
+									[
+										3647,
+										3647
+									],
+									[
+										4627,
+										4627
+									],
+									[
+										5876,
+										5876
+									],
+									[
+										6240,
+										6240
+									]
+								],
+								"scope": "col_gutter"
+							}
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5126,
+								5126
 							]
 						],
 						"settings":
@@ -944,12 +1897,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										5191,
+										5192
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										5112,
+										5113
+									]
 								},
 								"unmatched":
 								{
@@ -957,26 +1925,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -987,26 +1960,21 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1018,10 +1986,11 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2412.0,
+						"translation.y": 6282.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"stack_multiselect": false,
 					"type": "text"
 				}
 			]
