@@ -104,6 +104,10 @@ h3 {
 .materials h4 {
 	color: #0B486B;
 }
+.materials dt {
+	float: left;
+	line-height: 1.5;
+}
 .materials dd {
 	color: #0074B8;
 	font-weight: 700;
@@ -345,7 +349,7 @@ fdgdfgfdgfdggg
 
 
 /* більше 600px*/
-@media (min-width: 599px){
+@media (min-width: 560px){
 	body {
 		font-size: 100%;
 		background-color: #fff	;
@@ -381,7 +385,7 @@ fdgdfgfdgfdggg
 		font-weight: 900;
 	}
 	.promo__subtitle {
-		width: 240px;
+		width: 400px;
 		text-align: right;
 		color: #B8B412;
 		font-size: 1.3rem;
@@ -453,6 +457,17 @@ fdgdfgfdgfdggg
 	body {
 		font-size: 80%;
 		background-color: #fff	;
+	}
+
+	.header__phone a {
+  		font-size: 2rem;
+  	}
+  	.promo__title li {
+		font-size: 3rem;
+	}
+	.promo__subtitle {
+		width: 600px;
+		font-size: 2rem;
 	}
 	.header__wrap {
 		width: 800px;
