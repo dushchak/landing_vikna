@@ -176,6 +176,7 @@ h3 {
 }
 
 .footer {
+<<<<<<< HEAD
 	text-align: center;	
 	padding: 20px;
 	background-color: #666;
@@ -193,7 +194,14 @@ h3 {
 }
 .footer__item li{
 	list-style: none;
+=======
+	padding: 20px;
+	background-color: #666;
+	color:#fff
+	text-align: center;
+>>>>>>> f758d2c1318155ce0773d74a65115b6c050221ca
 }
+
 
 
 
