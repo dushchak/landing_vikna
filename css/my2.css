@@ -175,11 +175,24 @@ h3 {
 	color: #B8B412;
 }
 
-footer {
+.footer {
+	text-align: center;	
 	padding: 20px;
 	background-color: #666;
 	color:#fff
-	
+}
+.footer__wrap {
+	margin: 0 auto;
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.footer__item {
+	text-align: left;
+}
+.footer__item li{
+	list-style: none;
 }
 
 
