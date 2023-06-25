@@ -175,12 +175,13 @@ h3 {
 	color: #B8B412;
 }
 
-footer {
+.footer {
 	padding: 20px;
 	background-color: #666;
 	color:#fff
-	
+	text-align: center;
 }
+
 
 
 
