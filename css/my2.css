@@ -120,6 +120,9 @@ h3 {
 	flex-direction: column;
 	text-align: right;
 }
+.materials__profiles {
+	padding:  0 0 30px 0 ;
+}
 
 /* benefits */
 .benefits li {
@@ -176,7 +179,6 @@ h3 {
 }
 
 .footer {
-<<<<<<< HEAD
 	text-align: center;	
 	padding: 20px;
 	background-color: #666;
@@ -184,22 +186,18 @@ h3 {
 }
 .footer__wrap {
 	margin: 0 auto;
-	width: 800px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 .footer__item {
 	text-align: left;
+	padding: 0 30px;
 }
-.footer__item li{
+.footer__item li { 
 	list-style: none;
-=======
-	padding: 20px;
-	background-color: #666;
-	color:#fff
-	text-align: center;
->>>>>>> f758d2c1318155ce0773d74a65115b6c050221ca
+	padding: 8px 0;
 }
 
 
