@@ -40,8 +40,10 @@ h3 {
 	text-decoration: none;
 }
 
-.promo {
-
+.promo h1{
+	color:#B8B412;
+	font-size: 4rem;
+	font-weight: 900;
 }
 .promo__title {
 	display: flex;
@@ -241,6 +243,12 @@ fdgdfgfdgfdggg
 		color:#0B486B;
 		text-decoration: none;
 	}
+	.promo h1{
+
+		font-size: 2rem;
+
+
+	}
 	.promo__title li {
 		list-style: none;
 		color: #6B6905;
@@ -322,6 +330,9 @@ fdgdfgfdgfdggg
 		font-weight: 900;
 		color:#0B486B;
 		text-decoration: none;
+	}
+	.promo h1{
+		font-size: 2.5rem;
 	}
 	.promo__title li {
 		list-style: none;
@@ -507,11 +518,11 @@ fdgdfgfdgfdggg
 /* вужче 1280 */
 @media (min-width:1280px){
 	body {
-		font-size: 100%;
+		font-size: 120%;
 		background-color: #fff	;
 	}
 	.header__wrap {
-		width: 1000px;
+		width: 1200px;
 	}
 	
 }
