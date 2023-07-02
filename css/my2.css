@@ -69,6 +69,10 @@ h3 {
 .promo__subtitle span {
 	color: #6B6905;
 }
+.promo img {
+		width: 240px;
+		padding: 0 0 30px 0;
+	}
 
 /* price */
 .price {
@@ -351,6 +355,9 @@ fdgdfgfdgfdggg
 		color: #B8B412;
 		font-size: 1.3rem;
 	}
+	.promo__balkon {
+
+	}
 	.wrap {
 		width: 270px;
 	}
@@ -425,9 +432,7 @@ fdgdfgfdgfdggg
 		color: #B8B412;
 		font-size: 1.3rem;
 	}
-	.promo img {
-		width: 300px;
-	}
+	
 	.wrap {
 		width: 500px;
 	}
