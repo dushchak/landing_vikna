@@ -111,6 +111,16 @@ h3 {
 	display:none;
 }
 
+/*	list of site pages 	*/
+.listArticles a {
+	color: black;
+	text-decoration: underline;
+}
+.listArticles a:hover {
+	color: black;
+	text-decoration: none;
+}
+
 /* materials */
 .materials h4 {
 	color: #0B486B;
