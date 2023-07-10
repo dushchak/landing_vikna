@@ -13,7 +13,7 @@ body {
 h3 {
 	color: #6B6905;
 	font-size: 1.5rem;
-	padding: 50px 0 0 0;
+	padding: 30px 0 0 0;
 }
 
 .wrap {
@@ -38,6 +38,9 @@ h3 {
 	font-weight: 900;
 	color:#0B486B;
 	text-decoration: none;
+}
+.click_phone {
+        width: 35px;
 }
 
 .promo h1{
@@ -81,9 +84,14 @@ h3 {
 	display: flex;
 	justify-content: space-around;
 	text-align: center;
+        align-items: end;
+        padding: 10px 0 0 0;
 }
-.price__templates img {
+.price__item_img {
 	height: 100px;
+}
+.item_balkon{
+        height: 117px;
 }
 .price__item p {
 	color: #0074B8;
@@ -91,9 +99,9 @@ h3 {
 	font-weight: 400;
 }
 .price__item p span {
-	color: #B81218;
-	font-size: 1rem;
-	font-weight: 400;
+	color: green;
+	font-size: 1.3rem;
+	font-weight: 700;
 	display: inherit;
 }
 .price li {
@@ -164,11 +172,18 @@ h3 {
 }
 
 /* reviews */
+.rewiews__item {
+	font-size: 1rem;
+	font-style: italic;
+	border-right: solid 1px #666;
+	padding: 10px 0 0 0;
+}
 .client_name {
 	font-size: 1.1rem;
 	font-weight: 700;
 	color: #0B486B;
 }
+
 
 /* faq */
 .faq details {
@@ -181,7 +196,6 @@ h3 {
 }
 .contacts img {
 	border-radius: 10px;
-	padding: 5px;
 }
 .contacts__lastoffer {
 	margin: 60px 0;
@@ -225,19 +239,29 @@ h3 {
 
 
 /*
-lorem kl;fdkg;fdlkg 
-fdf
-dfg
-dfgdfgdfgdf
-fdgdfgfdgfdggg
-
-
+=====================================================
+=====================================================
+=====================================================
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* меньше 360px */
 @media (max-width: 359px){
 	body {
-		font-size: 80%;
+		font-size: 100%;
 		background-color: #fff	;
 	}
 
@@ -253,7 +277,7 @@ fdgdfgfdgfdggg
 		padding: 20px 0;
 
 	}
-	.header img {
+	.header__logo img {
 		width: 75px;
 	}
 	.header__phone a{
@@ -286,7 +310,7 @@ fdgdfgfdgfdggg
 	.price__templates {
 		flex-direction: column;
     }
-    .price__templates img {
+    .price__item_img {
 	height: 70px;
 }
 
@@ -326,7 +350,7 @@ fdgdfgfdgfdggg
 @media (min-width: 360px){
 	
 	body {
-		font-size: 80%;
+		font-size: 100%;
 		background-color: #fff	;
 	}
 	h3 {
@@ -341,7 +365,7 @@ fdgdfgfdgfdggg
 		padding: 20px 0;
 
 	}
-	.header img {
+	.header__logo img {
 		width: 75px;
 	}
 	.header__phone a{
@@ -351,7 +375,7 @@ fdgdfgfdgfdggg
 		text-decoration: none;
 	}
 	.promo h1{
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 	.promo__title li {
 		list-style: none;
@@ -374,7 +398,7 @@ fdgdfgfdgfdggg
 	.price__templates {
 		flex-direction: column;
     }
-    .price__templates img {
+    .price__item_img {
 		height: 70px;
 	}
 
@@ -418,7 +442,7 @@ fdgdfgfdgfdggg
 		padding: 20px 0;
 
 	}
-	.header img {
+	.header__logo img {
 		width: 75px;
 	}
 	.header__phone a{
@@ -451,8 +475,11 @@ fdgdfgfdgfdggg
 		justify-content: space-around;
 		flex-wrap: wrap;
     }
-    .price__templates img {
+    .price__item_img {
 		height: 70px;
+	}
+	.item_balkon {
+		height: 93px;
 	}
 
     .steps__img {
